@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 class Client(models.Model):
     id = models.AutoField(db_column='client_id', primary_key=True)
     first_name = models.CharField(max_length=25)
